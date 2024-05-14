@@ -1,0 +1,26 @@
+.event-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.card-title {
+  text-align: center;
+}
+.card-description {
+  height: 42px;
+  overflow: hidden;
+}
+.card-button {
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.event-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+  width: 330px;
+  border: 1px solid burlywood;
+  border-radius: 8px;
+}
