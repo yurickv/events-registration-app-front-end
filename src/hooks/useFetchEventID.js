@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { getEventID } from "../service/events-serviceAPI";
 
 export const useFetchEventID = () => {
-  const [eventInfo, setEventInfo] = useState([]);
+  const [eventInfo, setEventInfo] = useState({});
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
 

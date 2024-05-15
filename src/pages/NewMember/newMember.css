@@ -1,0 +1,49 @@
+.event-title {
+  text-align: center;
+  min-height: 32px;
+}
+.form {
+  margin: auto;
+  width: 300px;
+  padding: 30px 8px;
+}
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+button {
+  padding: 10px;
+  margin-top: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.radio-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}

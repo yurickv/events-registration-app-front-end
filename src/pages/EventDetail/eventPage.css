@@ -1,0 +1,9 @@
+.evens-detail-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.evens-detail-div {
+  display: flex;
+  justify-content: space-evenly;
+}

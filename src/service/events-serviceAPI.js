@@ -30,7 +30,7 @@ export const changeEvent = async (eventId, controller, updateEvent) => {
     const { data } = await axios.put(`/${eventId}`, updateEvent, {
       signal: controller.signal,
     });
-    return data.data;
+    return data;
   } catch (error) {
     console.error("Помилка при спробі зміні даних:", error);
   }
