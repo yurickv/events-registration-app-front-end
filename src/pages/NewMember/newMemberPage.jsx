@@ -30,15 +30,13 @@ const NewMember = () => {
         window.alert("You successfully added to event members");
       }
     } catch (error) {
-      window.alert("Something went wrong? try again", error);
+      window.alert("Something went wrong, reload page and try again", error);
     } finally {
       controller.abort();
     }
   };
 
   const onSubmit = (values, { setSubmitting, resetForm }) => {
-    console.log(values);
-    console.log(eventInfo.members);
     addNewMember({
       title: eventInfo.title,
       description: eventInfo.description,
@@ -53,7 +51,6 @@ const NewMember = () => {
   return (
     <section>
       <h1 className="title">Register to event</h1>
-
       <h2 className="event-title">{eventInfo.title}</h2>
       {isLoading && <Loader />}
       {error && <h2>{error}</h2>}
