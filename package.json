@@ -1,5 +1,6 @@
 {
   "name": "events-registration-app-front-end",
+  "homepage": "https://yurickv.github.io/events-registration-app-front-end",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
